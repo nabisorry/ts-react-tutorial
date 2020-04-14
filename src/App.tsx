@@ -7,6 +7,7 @@ function App() {
   const onClick = (name: string) => {
     console.log(name);
   };
+
   const onSubmint = (form: { name: string; description: string }) => {
     console.log(form);
   };
