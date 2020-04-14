@@ -16,6 +16,7 @@ function MyForm({ onSubmit }: MyFormProps) {
       [name]: value,
     });
   };
+
   const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     onSubmit(form);
